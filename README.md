@@ -1,24 +1,16 @@
-# test_case_medium
+# Test case like Medium
 
-## Project setup
+### Running
+Нужны свободные порты 8080 и 3000
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
+json-server db.json
 npm run serve
 ```
+### Specials:
+- не реализованы catch ошибок, тк использовался тестовый стенд
+- VUEX используется только для демонстрации (никакого практического смысла здесь)
+- icons import by cdn (без установки)
+- возможность редактировать и удалять посты других авторов (отсутствует в тз уточнение)
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
